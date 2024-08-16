@@ -5,11 +5,11 @@ name: eShopOnWeb Build and Test
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-Name
+  RESOURCE-GROUP: rg-eshoponweb-lch
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: XXXXXXXXX
-  WEBAPP-NAME: eshoponweb-webapp-Name
+  SUBSCRIPTION-ID: 0b8d5c8e-5759-4559-ae61-1a2e6c1d9610
+  WEBAPP-NAME: eshoponweb-webapp-lch
 
 
 jobs:
